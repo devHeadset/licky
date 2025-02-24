@@ -26,6 +26,9 @@ are missing their bits & pieces of their lyrics.
 I do plan on changing the api, and also adding a sort of sync with ncspot,
 but that will be in a later date.
 
+Licky, by default, will output this "uglier" version, however, if you parse
+--prettify (-p), it will use ncurses to make the lyrics a bit more.. appealing.
+
 I will, however, add a TODO section on this readme, for features that I plan
 to add. Even though this was meant to be a simpler tool.
 
