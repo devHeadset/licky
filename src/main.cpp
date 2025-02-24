@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
       lrc = "[e] : not found";
     }
 
-    if (cli.get_option("prettify")) {
+    if (cli.has_option("prettify")) {
       lyric.prettifyLyrics(artist, song, lrc);
     } else {
       std::cout << lrc << std::endl;
